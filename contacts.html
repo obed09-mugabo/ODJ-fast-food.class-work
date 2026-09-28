@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacts | ODJ Fast Food</title>
+  <meta name="description" content="Contact ODJ Fast Food: address, phone, email and opening hours.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html">ODJ<span>.</span>Fast Food</a>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a class="active" href="contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="banner">
+    <div class="wrap">
+      <h1>Contact us</h1>
+      <p>Questions, group orders or feedback? Reach out and we will reply quickly.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:1rem">
+    <div class="wrap contact-grid">
+
+      <div>
+        <div class="info-item">
+          <h3>Address</h3>
+          <p>Bugema Road, Kampala, Uganda</p>
+        </div>
+        <div class="info-item">
+          <h3>Phone</h3>
+          <p><a href="tel:+256000000000">+256 954 445 537</a></p>
+        </div>
+        <div class="info-item">
+          <h3>Email</h3>
+          <p><a href="mailto:hello@odjfastfood.com">obed.mugabo09@gmail.com.com</a></p>
+        </div>
+        <div class="info-item">
+          <h3>Opening hours</h3>
+          <p>Monday to Friday: 8:00 am to 11:00 pm<br>Saturday and Sunday: 10:00 am to midnight</p>
+        </div>
+      </div>
+
+      <form action="mailto:hello@odjfastfood.com" method="post" enctype="text/plain">
+        <h2 style="font-size:1.4rem">Send a message</h2>
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" required>
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" required>
+        <label for="topic">Topic</label>
+        <select id="topic" name="topic">
+          <option>General question</option>
+          <option>Group or party order</option>
+          <option>Delivery</option>
+          <option>Feedback</option>
+        </select>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        <button class="btn btn-primary" type="submit">Send message</button>
+      </form>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>&copy; 2026 ODJ Fast Food. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
